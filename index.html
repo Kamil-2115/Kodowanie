@@ -10,46 +10,102 @@
           href="style.css"/>
     <style>
         body {
-            background-color: cadetblue;
+            background-color: aquamarine;
+            font-family: Arial;
         }
         img {
-            width: 100px;
+            width: 20%;
+            float: right;
+            margin: 10px;
+        }
+        #mainheader {
+            background-color: #444;
+            padding: 25px 5px;
+            color: white;
+            font-size:25px;
+            height: 100px;
+        }
+        #mainfooter {
+            background: #ddd;
+            padding: 25px 5px;
+        }
+        #kontener section {
+            padding: 10px 15px;
+
+        }
+        nav {
+            background-color: gray;
+            width: 100%;
         }
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
+        h1.highlight {
+            background-color: gainsboro;
+        }
+        #wrapper {
+            background-color: white;
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+        nav ul li {
+            display:inline-block;
+            width: 100px;
+        }
+        nav ul li a {
+            display: block;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding: 8px 0;
+            background-color: dimgray;
+        }
+        nav ul li a:hover{
+            background-color: black;
+        }
     </style>
 </head>
 
-<body style="background-color: white">
-<!-- komentarz -->
-<a href="index.html">Home Page</a>
-<a href="https://www.google.com" target="_blank">Google</a>
+<body>
+    <div id="wrapper">
+        <header id="mainheader">STRONA</header>
+            <!-- komentarz -->
 
-<ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Contact</li>
-</ul>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+        <section id="kontener">
+            <section>
+                <h1 class="highlight">heading 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>Aenean commodo ligula eget dolor.
+            </section>
+            <img src="https://lorempixel.com/output/cats-q-c-640-480-8.jpg" alt="kot"/>
+            <section>
+            Aenean massa. Cum sociis
+            natoque penatibus et magnis dis parturient <span class="highlight">montes</span>, nascetur ridiculus mus.</p>
 
-<h1>heading 1</h1>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>Aenean commodo ligula eget dolor.
+            <h2>heading 2</h2>
+            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu.</p>
 
-    <img src="https://lorempixel.com/output/cats-q-c-640-480-8.jpg" alt="kot"/>
-    Aenean massa. Cum sociis
-    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-<h2>heading 2</h2>
-<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-    justo,
-    fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+            <p>In enim justo, rhoncus ut, <span class="highlight">imperdiet</span> a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+            tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+            porttitor
+            eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
+            </section>
+        </section>
 
-<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-    tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-    porttitor
-    eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
+        <footer id="mainfooter">2021</footer>
 
+
+    </div>
 
 </body>
 </html>
