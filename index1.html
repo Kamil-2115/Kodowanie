@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link href="styl.css" rel="stylesheet">
 
         <title>Formularz</title>
 
@@ -18,7 +17,7 @@
 
         <header>
             <nav class="bg-primary text-center navbar-dark">
-                <a class="text-white text-decoration-none m-2 fs-1" href="#">KOMPUTRONIK</a>
+                <a class="text-white text-decoration-none m-2 fs-1" href="https://d.ktr.pl/customer/login">KOMPUTRONIK</a>
             </nav>
         </header>
 
@@ -28,113 +27,139 @@
 
         </header>
 
-        <div class="container w-50">
+        <div class="container w-auto">
 
 
-            <div class="row m-2 w-auto">
+            <div class="row m-2">
                 <p>Zapraszamy do rejestracji w naszej bazie partnerów handlowych. Po wypełnieniu formularza dane w nim zawarte zostaną zweryfikowane, a następnie, w ciągu 24h od wpłynięcia zgłoszenia, skontaktujemy się z Państwem. W celu przyspieszenia rejestracji prosimy o załączenie dokumentów wymienionych w dole formularza.</p>
 
 
                 <h2 class="border-bottom border-4 p-2">Wypełnij formularz</h2>
-
-
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*NIP">
-
-                </div>
-
-                <div class="row col-6 m-2">
-
-                    <input type="text" placeholder="*Login">
-
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*Imię">
-                </div>
-
-                <div class="row col-6 m-2">
-                    <input type="text" placeholder="*Nazwisko">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*Firma">
-                </div>
-
-                <div class="row col-6 m-2">
-                    <input type="text" placeholder="*REGON">
-                </div>
-
-                <div class="row col-3 my-2">
-                    <input type="text" placeholder="*Ulica">
-                </div>
-
-                <div class="row col-3 m-2">
-                    <input type="text" placeholder="*Nr domu/mieszkania">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*Miejscowość">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*Kod pocztowy">
-                </div>
-
-                <div class="row col-6 m-2">
-                    <input type="text" placeholder="*E-mail">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="password" placeholder="*Hasło">
-                </div>
-
-                <div class="row col-6 m-2">
-                    <input type="password" placeholder="*Powtórz hasło">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <input type="text" placeholder="*Telefon">
-                </div>
-
-                <div class="row col-6 m-2 text-center">
-                    <p>Handlowiec: Jan Kowalski</p>
-                </div>
-
-                <div class="row col-6 my-2">
-                    <select name="Rodzaj zakupów">
-                        <option selected disabled>Wybierz rodzaj zakupów</option>
-                        <option value="1">Zakupy na potrzeby wewnętrzne</option>
-                        <option value="2">Zakupy do dalszej odsprzedaży</option>
-                    </select>
-                </div>
-
-                <div class="row col-6 m-2">
-                    <input type="text" placeholder="Liczba pracowników">
-                </div>
-
-                <div class="row col-6 my-2">
-                    <textarea placeholder="Uwagi"></textarea>
-                </div>
-
             </div>
 
+            <form>
+                <div class="row mb-2">
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*NIP" aria-label="NIP">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*Login" aria-label="Login">
+                    </div>
 
 
-            </div>
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*Imię" aria-label="Imię">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*Nazwisko" aria-label="Nazwisko">
+                    </div>
+
+
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*Firma" aria-label="Firma">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*REGON" aria-label="REGON">
+                    </div>
+
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="*Ulica" aria-label="Ulica">
+                    </div>
+
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="*Nr domu/mieszkania" aria-label="Nr domu/mieszkania">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="*Miejscowość" aria-label="Miejscowość">
+                    </div>
+
+
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="*Hasło" aria-label="Hasło">
+                    </div>
+
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="*Powtórz hasło" aria-label="Powtórz hasło">
+                    </div>
+
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*Telefon" aria-label="Telefon">
+                    </div>
+
+                    <div class="col text-center mt-2">
+                        Handlowiec: Jan Kowalski
+                    </div>
+
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col">
+
+                        <select class="form-select">
+                            <option selected disabled>Wybierz rodzaj zakupów</option>
+                            <option value="1">Zakupy na potrzeby wewnętrzne</option>
+                            <option value="2">Zakupy do dalszej odsprzedaży</option>
+
+
+                        </select>
+                    </div>
+
+
+                    <div class="col-6">
+                    <input type="number" min="0" max="9999" class="form-control" placeholder="Liczba pracowników">
+
+                    </div>
+
+                    </div>
+                <div class="row mb-2">
+
+                    <div class="col-6">
+
+                        <textarea class="form-control" placeholder="Uwagi" rows="4"></textarea>
+
+
+                    </div>
+
+                </div>
+
+                <div class="row m-3 justify-content-center">
+
+                    <div class="col-auto">
+
+                        <input class="btn-lg btn-primary" type="submit" value="Zarejestruj">
+
+                    </div>
+                </div>
+
+            </form>
+
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
